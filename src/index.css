@@ -1,0 +1,9 @@
+body {
+  background-color: #DBF4A7 !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: unset !important;
+  background-color: #F5F5F5 !important;
+  border-radius: 10px !important;
+}
