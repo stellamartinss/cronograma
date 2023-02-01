@@ -34,7 +34,7 @@ function Moments() {
 
   return (
     <>
-      <h1>Momentos</h1>
+      <h1>Cronograma</h1>
       {moment}
     </>
   );
