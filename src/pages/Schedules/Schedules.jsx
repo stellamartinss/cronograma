@@ -1,7 +1,10 @@
 import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
+import ControlPointIcon from '@mui/icons-material/ControlPoint';
 import './Schedules.css'
+import { Link } from "react-router-dom";
+
 
 function Schedules() {
     let moment = [];
@@ -24,7 +27,7 @@ function Schedules() {
               <div className="col-10">
                 <span className="title">{item.name}</span>
                 <br />
-                <span class="champ">{item.champ}</span>
+                <span className="champ">{item.champ}</span>
               </div>
             </div>
           </CardContent>
@@ -37,6 +40,7 @@ function Schedules() {
     return (
       <>
         <h1>Eventos</h1>
+        <Link to='/criar-evento'><ControlPointIcon /></Link>
         {moment}
       </>
     );
